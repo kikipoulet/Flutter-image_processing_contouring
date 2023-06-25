@@ -10,7 +10,7 @@ There are not a lot of functionalities yet, it is more like a PoC. Here is what 
 im.Image? ima = LoadImageFromPath('/home/user/image.jpg');
 
 // Apply a treshold and detect contours
-var contours = ima?.threshold(100).detectContours();
+var contours = ima?.threshold(220).detectContours();
 
 // Draw all the contours on the image in red
 ima?.drawContours(contours!, im.ColorFloat16.rgb(255,0,0), filled: false);
