@@ -1,3 +1,5 @@
+https://pub.dev/packages/image_processing_contouring
+
 Basic experimentation of an image processing & contouring package in pure dart. And trying to make the usage easy.
 The idea is to implement in dart the basics that permits to detect contours in an image and calculate some info about it (Area, Perimeter) and make some basic drawing with it.
 
