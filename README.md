@@ -27,3 +27,10 @@ ima?.drawContour(biggestcontour!, im.ColorFloat16.rgb(0,255,0),  true);
 ima?.getWidget(BoxFit.contain);
 ```
 
+So if you run this example on this image :
+
+<img src="https://raw.githubusercontent.com/kikipoulet/Flutter-image_processing_contouring/main/image.jpg"></img>
+
+you will obtain this :
+
+<img src="https://raw.githubusercontent.com/kikipoulet/Flutter-image_processing_contouring/main/result.png"></img>
